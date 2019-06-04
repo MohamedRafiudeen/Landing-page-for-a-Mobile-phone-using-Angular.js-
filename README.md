@@ -21,8 +21,30 @@ Requirements:
 
 * The theme of theapp should render a feel of class to the end-user.
 
-* The various accessories available with the pjone would be displayed, with lins to purchase them.
+* The various accessories available with the pjone would be displayed, with links to purchase them.
 
 * The app should be navigabe for the users.
 
 * A contact form would be provided in the  site, for interaction with the users.
+
+
+
+
+Steps to run:
+
+* the app works with angular-cli
+
+* depencencies:
+    "aos": "^2.3.4",
+    "bootstrap3": "^3.3.5",
+    "jquery": "^3.4.1",
+    "webpack-simple": "^1.3.1"
+    "webpack-dev-server": "^3.5.1"
+    
+compile: 
+   'ng serve'
+   
+   app opens in 'localhost:4200'
+   
+    
+    
