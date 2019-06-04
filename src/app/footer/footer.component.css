@@ -1,0 +1,63 @@
+#titleblock{
+    max-height: 100px;
+    max-width: 100%;
+    background-color: #007BFF;
+    overflow: hidden;
+}
+
+.title{
+    height: 50%;
+    max-width: 36%;
+    margin-left: auto;
+    padding-right: 40px;
+}
+
+
+#icons{
+    display: flex;
+    font-size: 20px;
+    margin: 0px auto;
+}
+
+#icons> i{
+    font-size: 20px;
+    color: white;
+    margin: 10px 10px;
+}
+h2{
+    font-size: 22px;
+    color:white;
+}
+
+.row>h1{
+    padding-top: 20px;
+    margin-left: 40px;
+    font-size: 32px;
+    color:white;
+    font-family: 'Baloo Da', cursive;
+}
+
+
+
+@media only screen and (max-width:360px),(max-width:375px),(max-width:411px),(max-width:414px){
+    .row>h1{
+        padding-top: 20px;
+        margin-left: 40px;
+        font-size: 20px;
+        color:white;
+        font-family: 'Baloo Da', cursive;
+    }
+
+    .title{
+        height: 50%;
+        max-width: 36%;
+        margin-left: auto;
+        padding-right: 40px;
+    }
+
+    .title>h2{
+        font-size: 8px;
+        color:white;
+    }
+    
+}

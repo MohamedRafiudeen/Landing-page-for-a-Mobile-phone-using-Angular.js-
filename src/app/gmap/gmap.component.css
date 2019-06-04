@@ -1,0 +1,26 @@
+#gmap-sect{
+    min-height: 400px;
+    min-width: 100%;
+    background-color: goldenrod;
+}
+
+.titleblock{
+    height: 100px;
+    max-width: 100%;
+    background-color: #007BFF;
+}
+
+.title{
+    height: 50%;
+    max-width: 36%;
+    margin-left: 42%;
+
+}
+
+h1{
+    font-family: 'Righteous', cursive;
+    font-weight: bold;
+    font-size: 32px;
+    padding-top: 30px;
+    margin: 20px 0px;
+}

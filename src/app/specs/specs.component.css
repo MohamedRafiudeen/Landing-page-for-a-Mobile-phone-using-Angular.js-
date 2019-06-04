@@ -1,0 +1,190 @@
+#specs-sect{
+    min-height: 1800px;
+    min-width: 100%;
+    max-width: 100%;
+    background-image: url("http://101hdwallpapers.download/wp-content/uploads/2018/07/Samsung-Galaxy-Note-8-N950F-Official-HD-Wallpapers-2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.titleblock{
+    height: 100px;
+    max-width: 100%;
+    background-color: #007BFF;
+}
+
+.title{
+    height: 50%;
+    max-width: 36%;
+    margin-left: 42%;
+
+}
+
+.texts{
+    max-width: 70%;
+    height: 70%;
+    margin: 0px auto;
+}
+
+h1{
+    font-family: 'Righteous', cursive;
+    font-weight: bold;
+    font-size: 32px;
+    padding-top: 30px;
+    margin: 20px 0px;
+}
+
+p{
+    font-family: 'Baloo Da', cursive;
+    font-size: 22px;
+}
+
+
+.card{
+    min-height: 700px;
+    max-width: 80%;
+    background-color: transparent;
+    margin: 40px auto;
+}
+
+.card-box{
+    height: 400px;
+    min-width: 90%;
+    background-color: gray;
+    border: 4px solid #007BFF;
+    margin-bottom:46px; 
+}
+
+img{
+    min-height: 100%;
+    max-width:100%;
+}
+
+.left{
+    height: 100%;
+    min-width: 50%;
+    max-width: 50%;
+    float: left;
+    background-color: #007BFF;
+}
+
+
+.right{
+    height: 100%;
+    min-width: 50%;
+    max-width: 50%;
+    float: right;
+    background-color:grey;
+}
+
+
+/*#imgone{
+    background-image: url("https://i2.wp.com/techweez.com/wp-content/uploads/2017/08/Screenshot-28.png?fit=1366%2C768&ssl=1");
+    background-size: contain;
+    background-position: center;
+    height: 100%;
+    min-width:100%;
+}*/
+
+
+
+@media only screen and (max-width:360px),(max-width:375px),(max-width:411px),(max-width:414px){
+
+    #specs-sect{
+        min-height: 1260px;
+        max-height: 1260px;
+    }
+
+    .card-box{
+        max-height: 190px;
+    }
+
+    .titleblock{
+        height: 70px;
+        padding-right: 40px;
+    }
+
+    .title{
+        padding-top:20px;
+    }
+
+
+
+    h1{
+        font-size: 16px;
+        padding-top: 0px;
+        margin: 20px 0px;
+    }
+    p{
+        font-size:8px;
+    }
+
+    img{
+        min-height: 100%;
+        max-height: 100%;
+    }
+
+
+
+}
+
+
+
+@media (min-width:620)and (max-width:720px){
+
+    h1{
+        font-size: 18px;
+        padding-top: 10px;
+        margin: 20px 0px;
+    }
+    p{
+        font-size:8px;
+    }
+
+    img{
+        min-height: 100%;
+        max-height: 100%;
+    }
+
+    .card-box{
+        max-height: 220px;
+    }
+
+
+}
+
+
+
+@media (min-width:720) and (max-width:910px){
+
+    .card-box{
+        max-height: 300px;
+    }
+
+    .titleblock{
+        height: 100px;
+        padding-right: 00px;
+    }
+
+    .title{
+        padding-top:12px;
+    }
+
+    h1{
+        font-size: 18px;
+        padding-top: 10px;
+        margin: 20px 0px;
+    }
+    p{
+        font-size:16px;
+    }
+
+    img{
+        min-height: 100%;
+        max-height: 100%;
+    }
+
+
+
+}
